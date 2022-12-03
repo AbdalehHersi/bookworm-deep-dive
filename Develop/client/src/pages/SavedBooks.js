@@ -13,6 +13,12 @@ const SavedBooks = () => {
 
   console.log("DATA: ", data);
 
+  const setData = () => {
+    setUserData(data)
+  }
+
+  setData()
+
   // use this to determine if `useEffect()` hook needs to run again
   const userDataLength = Object.keys(userData).length;
 
