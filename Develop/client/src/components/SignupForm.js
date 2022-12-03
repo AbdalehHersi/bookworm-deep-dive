@@ -55,7 +55,7 @@ const SignupForm = () => {
       <Form noValidate validated={validated} onSubmit={HandleFormSubmit}>
         {/* show alert if server response is bad */}
         <Alert dismissible onClose={() => setShowAlert(false)} show={showAlert} variant='danger'>
-          Something went wrong with your signup! {error.message}
+          Something went wrong with your signup!
         </Alert>
 
         <Form.Group>
